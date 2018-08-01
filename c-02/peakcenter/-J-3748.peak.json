@@ -1,0 +1,41 @@
+{
+    "AX": {
+        "center_dac": 5.8758350960680215,
+        "center_signal": 58.67427890661575,
+        "high_dac": 5.883199825526939,
+        "high_signal": 42.69741502888611,
+        "low_dac": 5.868470366609104,
+        "low_signal": 43.0911868475397,
+        "points": "QLuNMb3br49Au5WrvPSulkC7niQ+IJGcQLumnj8aKfVAu68XQCWiAkC7t5FBDr//QLvACkG4kb9Au8iEQh7Tu0C70P1CToKxQLvZdkJkT7lAu+HwQmmTRkC76mlCaqdSQLvy40JqkIxAu/tcQmp+dEC8A9ZCan3PQLwMT0JqN0pAvBTJQmp77kC8HUJCajUPQLwlvEJoRy1AvC41QmYnZ0C8Nq9CXdN6QLw/KEJEWPZAvEeiQgdTVkC8UBtBh1w6QLxYlECvSOhAvGEOP4/MHEC8aYc9RVXEQLxyAb5ZH81AvHp6vlxwh0C8gvS+RTe0"
+    },
+    "CDD": {
+        "center_dac": null,
+        "center_signal": null,
+        "high_dac": null,
+        "high_signal": null,
+        "low_dac": null,
+        "low_signal": null,
+        "points": "QLuNMQAAAABAu5WrOSBOqUC7niQ58HX9QLumnjnwdf1Au68XOqBOqUC7t5E7SGJVQLvACjuCP+tAu8iEPAI/7UC70P08kAa2QLvZdj1MJFRAu+HwPcSgyEC76mk+FJE+QLvy4z4pO3xAu/tcPjXBs0C8A9Y+NUl3QLwMTz4nWo1AvBTJPjH/1UC8HUI+LmYMQLwlvD4shR1AvC41Pi/Ov0C8Nq8+LDT2QLw/KD4omyxAvEeiPheKt0C8UBs+DsZgQLxYlD2x14JAvGEOPUIfZkC8aYc8ZnEgQLxyATsMRNVAvHp6OkhiU0C8gvQ5oE6p"
+    },
+    "H1": {
+        "center_dac": 5.8758350960680215,
+        "center_signal": 791.688326716879,
+        "high_dac": 5.883680787450787,
+        "high_signal": 586.7576234334533,
+        "low_dac": 5.867989404685256,
+        "low_signal": 581.6334484098018,
+        "points": "QLuNMT8kNZBAu5WrP507ekC7niRAZKyqQLumnkE++2VAu68XQmRRKUC7t5FDMpgfQLvACkPLpxhAu8iERBwbV0C70P1EOiP3QLvZdkRD7kZAu+HwREWviUC76mlEReiHQLvy40RF5T5Au/tcREXAwEC8A9ZERZ/vQLwMT0RFnKRAvBTJREV9eEC8HUJERUkcQLwlvERE/41AvC41REPJA0C8Nq9EQAw1QLw/KEQzX+RAvEeiRA+0CkC8UBtDqt3rQLxYlEMKK/1AvGEOQhGyBkC8aYdAzO2yQLxyAT85IQ1AvHp6PXwbxEC8gvQ+BAdL"
+    },
+    "L2": {
+        "center_dac": null,
+        "center_signal": null,
+        "high_dac": null,
+        "high_signal": null,
+        "low_dac": null,
+        "low_signal": null,
+        "points": "QLuNMbunjCtAu5WrvIusJkC7niQ8kV8SQLumnjzm/NlAu68XPbGwZkC7t5E9ywjwQLvACjzr8XpAu8iEPQBu/0C70P09kkGTQLvZdj1C+X1Au+HwPQpMnUC76mm8jQxfQLvy4z2aLmFAu/tcPc0B9kC8A9Y9ptc2QLwMTz2mnIBAvBTJPVGdeUC8HUK9msn1QLwlvD2IXRpAvC41PYAZ6UC8Nq8+I37WQLw/KDuJCOlAvEeiPY2wRkC8UBs9MTbBQLxYlDzqSplAvGEOPYtqkkC8aYc9o3JGQLxyAT0U2oNAvHp6vB4UPEC8gvQ+EMRe"
+    },
+    "fmt": ">ff",
+    "reference_detector": "H1",
+    "reference_isotope": "Ar40"
+}
