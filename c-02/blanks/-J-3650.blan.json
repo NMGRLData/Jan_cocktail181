@@ -1,6 +1,6 @@
 {
     "Ar36": {
-        "error": 0.00017436130287049975,
+        "error": 0.0001743613028704998,
         "error_type": "",
         "fit": "Bracketing Interpolate",
         "references": [
@@ -96,7 +96,7 @@
         "value": 0.03461114597119108
     },
     "Ar40": {
-        "error": 0.00801361992568647,
+        "error": 0.008013619925686472,
         "error_type": "",
         "fit": "Bracketing Interpolate",
         "references": [
