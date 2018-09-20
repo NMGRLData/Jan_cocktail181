@@ -1,0 +1,163 @@
+{
+    "acquisition_software": "pychron py3/18.2",
+    "aliquot": 3886,
+    "analysis_type": "cocktail",
+    "analyst_name": "",
+    "collection_version": "1.0:1.0",
+    "comment": "",
+    "commit": "adc424e8e7fd5860b6dfad1d81c3a0eec849f5f9",
+    "conditionals": null,
+    "data_reduction_software": "pychron py3/18.2",
+    "detectors": {
+        "AX": {
+            "deflection": 190.0,
+            "gain": 1
+        },
+        "CDD": {
+            "deflection": 50.0,
+            "gain": 1
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 1
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 1
+        },
+        "L1": {
+            "deflection": 400.0,
+            "gain": 1
+        },
+        "L2": {
+            "deflection": 825.0,
+            "gain": 1
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2018-09-19T12:38:52",
+                "title": "iServer Hum.",
+                "value": 55.5
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2018-09-19T12:34:37",
+                "title": "Building",
+                "value": 99.5
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2018-09-19T12:27:32",
+                "title": "Lab",
+                "value": 87.3
+            },
+            {
+                "device": "MicroBoneGaugeController",
+                "name": "JanDecabinPressure",
+                "pub_date": "2018-09-19T11:26:42",
+                "title": "Jan Decabin",
+                "value": 2.3
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger",
+                "name": "ColdFinger Temp.",
+                "pub_date": "2018-09-19T11:42:13",
+                "title": "Cold Finger",
+                "value": 73.0
+            },
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2018-09-19T12:38:52",
+                "title": "iServer Temp.",
+                "value": 74.8
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2018-09-19T12:38:27",
+                "title": "Coolant",
+                "value": 16.0
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2018-09-19T12:28:32",
+                "title": null,
+                "value": 35.4578754578755
+            }
+        ]
+    },
+    "experiment_queue_name": "CurrentExperiment",
+    "extraction": "jan_cocktail_x1.py",
+    "identifier": "c-02-J",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "Cocktail-02",
+    "irradiation_level": "A",
+    "irradiation_position": 2,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40",
+            "serial_id": "00000"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "mass_spectrometer": "jan",
+    "material": "Gas",
+    "measurement": "jan_unknown120_60.py",
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "NMGRL",
+    "project": "REFERENCES",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Jan_cocktail181",
+    "sample": "cocktail",
+    "source": {
+        "emission": 545.724,
+        "trap": 198.595
+    },
+    "spec_sha": "f34c98c886c7c2c2df7296517754768ed8cbd400",
+    "timestamp": "2018-09-19T12:40:41.746895",
+    "tripped_conditional": null,
+    "username": "",
+    "uuid": "2ca1e938-ce3d-4845-97c5-320cd1b06f1b",
+    "whiff_result": null
+}
