@@ -1,0 +1,194 @@
+{
+    "acquisition_software": "pychron py3/18.2",
+    "aliquot": 4011,
+    "analysis_type": "cocktail",
+    "analyst_name": "MHeizler",
+    "collection_version": "1.0:2.0",
+    "comment": "",
+    "commit": "140d6de33238fbcf2271e6bfcbae037a030b5fb2",
+    "conditionals": [
+        {
+            "analysis_types": null,
+            "frequency": 5,
+            "hash_id": -1641437181315849212,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "H1.bs<-5.0"
+        },
+        {
+            "analysis_types": null,
+            "frequency": 5,
+            "hash_id": 5222909691550005597,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 75,
+            "teststr": "Ar36.bs_corrected<-0.005"
+        },
+        {
+            "analysis_types": null,
+            "frequency": 3,
+            "hash_id": -4435830823716219817,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "Ar40.bs_corrected>5000.0"
+        }
+    ],
+    "data_reduction_software": "pychron py3/18.2",
+    "detectors": {
+        "AX": {
+            "deflection": 190.0,
+            "gain": 1
+        },
+        "CDD": {
+            "deflection": 50.0,
+            "gain": 1
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 1
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 1
+        },
+        "L1": {
+            "deflection": 400.0,
+            "gain": 1
+        },
+        "L2": {
+            "deflection": 825.0,
+            "gain": 1
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2018-11-10T09:24:25",
+                "title": "iServer Hum.",
+                "value": 25.2
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2018-11-10T09:24:25",
+                "title": "Building",
+                "value": 100.1
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2018-11-10T09:24:25",
+                "title": "Lab",
+                "value": 87.0
+            },
+            {
+                "device": "MicroBoneGaugeController",
+                "name": "JanDecabinPressure",
+                "pub_date": "2018-11-10T09:24:25",
+                "title": "Jan Decabin",
+                "value": 2.1
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger",
+                "name": "ColdFinger Temp.",
+                "pub_date": "2018-11-10T09:24:25",
+                "title": "Cold Finger",
+                "value": -197.0
+            },
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2018-11-10T09:24:25",
+                "title": "iServer Temp.",
+                "value": 71.7
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2018-11-10T09:29:25",
+                "title": "Coolant",
+                "value": 16.0
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2018-11-10T09:24:24",
+                "title": null,
+                "value": 35.7069597069597
+            }
+        ]
+    },
+    "experiment_queue_name": "LoadC0013",
+    "extraction": "jan_cocktail_x2.py",
+    "identifier": "c-02-J",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "Cocktail-02",
+    "irradiation_level": "A",
+    "irradiation_position": 2,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40",
+            "serial_id": "00000"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "mass_spectrometer": "Jan",
+    "material": "Gas",
+    "measurement": "jan_unknown120_60.py",
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "NMGRL",
+    "project": "REFERENCES",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Jan_cocktail181",
+    "sample": "cocktail",
+    "source": {
+        "emission": 541.71,
+        "trap": 198.147
+    },
+    "spec_sha": "01f2227b28b64785f29d539b426714dd6f4fa453",
+    "timestamp": "2018-11-10T09:44:39.972507",
+    "tripped_conditional": null,
+    "username": "MHeizler",
+    "uuid": "cbbde21c-4272-43ed-b1c6-fc8ff9e42a96",
+    "whiff_result": null
+}
