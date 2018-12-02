@@ -1,0 +1,264 @@
+{
+    "acquisition_software": "pychron py3/18.2",
+    "aliquot": 4161,
+    "analysis_type": "cocktail",
+    "analyst_name": "MHeizler",
+    "collection_version": "1.0:2.0",
+    "comment": "",
+    "commit": "57c5de3c29051f09f2f79e727255b14a15a83d06",
+    "conditionals": [
+        {
+            "analysis_types": null,
+            "frequency": 5,
+            "hash_id": -117291263986942074,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "H1.bs<-5.0"
+        },
+        {
+            "analysis_types": null,
+            "frequency": 5,
+            "hash_id": -6259129728816236801,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 75,
+            "teststr": "Ar36.bs_corrected<-0.005"
+        },
+        {
+            "analysis_types": null,
+            "frequency": 3,
+            "hash_id": -4612223158137016788,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "Ar40.bs_corrected>5000.0"
+        }
+    ],
+    "data_reduction_software": "pychron py3/18.2",
+    "detectors": {
+        "AX": {
+            "deflection": 190.0,
+            "gain": 1
+        },
+        "CDD": {
+            "deflection": 50.0,
+            "gain": 1
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 1
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 1
+        },
+        "L1": {
+            "deflection": 400.0,
+            "gain": 1
+        },
+        "L2": {
+            "deflection": 825.0,
+            "gain": 1
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2018-12-01T15:06:24",
+                "title": "iServer Hum.",
+                "value": 15.1
+            },
+            {
+                "device": "RPiWeather",
+                "name": "Lab Hum. 2",
+                "pub_date": "2018-12-01T17:40:50",
+                "title": "Base Station Hum.",
+                "value": 15.7418880462646
+            },
+            {
+                "device": "NOAA",
+                "name": "Outside Humidity",
+                "pub_date": "2018-12-01T17:22:24",
+                "title": "",
+                "value": 24.0
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2018-12-01T17:21:07",
+                "title": "Building",
+                "value": 100.2
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2018-12-01T17:01:06",
+                "title": "Lab",
+                "value": 87.1
+            },
+            {
+                "device": "RPiWeather",
+                "name": "Lab Pressure",
+                "pub_date": "2018-12-01T17:27:54",
+                "title": null,
+                "value": 855.16015625
+            },
+            {
+                "device": "MicroBoneGaugeController",
+                "name": "JanDecabinPressure",
+                "pub_date": "2018-12-01T08:10:40",
+                "title": "Jan Decabin",
+                "value": 1.9
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger",
+                "name": "ColdFinger Temp.",
+                "pub_date": "2018-12-01T13:25:21",
+                "title": "Cold Finger",
+                "value": -197.0
+            },
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2018-12-01T14:38:14",
+                "title": "iServer Temp.",
+                "value": 73.0
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2018-12-01T17:36:08",
+                "title": "Coolant",
+                "value": 16.1
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2018-12-01T13:40:43",
+                "title": null,
+                "value": 35.6141636141636
+            },
+            {
+                "device": "RPiWeather",
+                "name": "Lab Temp. 2",
+                "pub_date": "2018-12-01T17:40:13",
+                "title": "Base Station Temp.",
+                "value": 83.054963684082
+            },
+            {
+                "device": "RPiWeather",
+                "name": "Lab Temp. 3",
+                "pub_date": "2018-12-01T17:31:53",
+                "title": "EastDiffuser01",
+                "value": 56.075
+            },
+            {
+                "device": "RPiWeather",
+                "name": "Lab Temp. 4",
+                "pub_date": "2018-12-01T17:40:38",
+                "title": "EastReturn02",
+                "value": 71.15
+            },
+            {
+                "device": "RPiWeather",
+                "name": "Lab Temp. 5",
+                "pub_date": "2018-12-01T13:15:28",
+                "title": "iServerCalibration03",
+                "value": 72.8366
+            },
+            {
+                "device": "RPiWeather",
+                "name": "Lab Temp. 6",
+                "pub_date": "2018-12-01T16:40:33",
+                "title": "SouthWall04",
+                "value": 69.2366
+            },
+            {
+                "device": "RPiWeather",
+                "name": "Lab Temp. 7",
+                "pub_date": "2018-12-01T17:35:50",
+                "title": "SouthWindow05",
+                "value": 65.8616
+            },
+            {
+                "device": "NOAA",
+                "name": "Outside Temp",
+                "pub_date": "2018-12-01T17:22:24",
+                "title": "Outside Temp.",
+                "value": 46.0
+            }
+        ]
+    },
+    "experiment_queue_name": "LoadC0019",
+    "extraction": "jan_cocktail_x1.py",
+    "identifier": "c-02-J",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "Cocktail-02",
+    "irradiation_level": "A",
+    "irradiation_position": 2,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40",
+            "serial_id": "00000"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "mass_spectrometer": "Jan",
+    "material": "Gas",
+    "measurement": "jan_unknown120_60.py",
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "NMGRL",
+    "project": "REFERENCES",
+    "queue_conditionals_name": "---",
+    "repository_identifier": "Jan_cocktail181",
+    "sample": "cocktail",
+    "source": {
+        "emission": 540.493,
+        "trap": 198.706
+    },
+    "spec_sha": "8b57caf88302602718ce2e50c7dc89d1841e1598",
+    "timestamp": "2018-12-01T17:41:06.162583",
+    "tripped_conditional": null,
+    "username": "MHeizler",
+    "uuid": "1642a611-0f0c-400d-83a0-b9a07a9bb40e",
+    "whiff_result": null
+}
