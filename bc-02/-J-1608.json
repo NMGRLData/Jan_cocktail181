@@ -1,0 +1,213 @@
+{
+    "acquisition_software": "pychron py3/18.2",
+    "aliquot": 1608,
+    "analysis_type": "blank_cocktail",
+    "analyst_name": "",
+    "collection_version": "1.0:2.0",
+    "comment": "",
+    "commit": "7ecc852091d9b6bcaf9e49428369347259964a83",
+    "conditionals": [
+        {
+            "analysis_types": null,
+            "frequency": 1,
+            "hash_id": 7464157649081357712,
+            "level": 30,
+            "location": "scripts/conditionals/kevin.yaml",
+            "ntrips": 1,
+            "start_count": 5,
+            "teststr": "Ar40>5000.0"
+        },
+        {
+            "analysis_types": null,
+            "frequency": 1,
+            "hash_id": 8834661797696198894,
+            "level": 30,
+            "location": "scripts/conditionals/kevin.yaml",
+            "ntrips": 1,
+            "start_count": 60,
+            "teststr": "age>40.0"
+        },
+        {
+            "analysis_types": null,
+            "frequency": 1,
+            "hash_id": 8639675885409403143,
+            "level": 30,
+            "location": "scripts/conditionals/kevin.yaml",
+            "ntrips": 1,
+            "start_count": 20,
+            "teststr": "Ar39.bs_corrected<0.5"
+        },
+        {
+            "analysis_types": null,
+            "frequency": 5,
+            "hash_id": 8083382762409189675,
+            "level": 30,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "H1.bs<-5.0"
+        },
+        {
+            "analysis_types": null,
+            "frequency": 5,
+            "hash_id": -8053828435040792361,
+            "level": 30,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 75,
+            "teststr": "Ar36.bs_corrected<-0.005"
+        },
+        {
+            "analysis_types": null,
+            "frequency": 3,
+            "hash_id": -1894821117064312222,
+            "level": 30,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "Ar40.bs_corrected>5000.0"
+        }
+    ],
+    "data_reduction_software": "pychron py3/18.2",
+    "detectors": {
+        "AX": {
+            "deflection": 190.0,
+            "gain": 1
+        },
+        "CDD": {
+            "deflection": 50.0,
+            "gain": 1
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 1
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 1
+        },
+        "L1": {
+            "deflection": 400.0,
+            "gain": 1
+        },
+        "L2": {
+            "deflection": 825.0,
+            "gain": 1
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2018-11-27T01:22:28",
+                "title": "Building",
+                "value": 101.0
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2018-11-27T01:37:30",
+                "title": "Lab",
+                "value": 83.8
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger",
+                "name": "ColdFinger Temp.",
+                "pub_date": "2018-11-26T20:17:18",
+                "title": "Cold Finger",
+                "value": 67.0
+            },
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2018-11-26T23:54:46",
+                "title": "iServer Temp.",
+                "value": 68.9
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2018-11-27T01:27:09",
+                "title": "Coolant",
+                "value": 16.1
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2018-11-26T03:52:10",
+                "title": null,
+                "value": 35.4920634920635
+            }
+        ]
+    },
+    "experiment_queue_name": "LoadC0017",
+    "extraction": "jan_cocktail_x1.py",
+    "identifier": "bc-02-J",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NoIrradiation",
+    "irradiation_level": "A",
+    "irradiation_position": 24,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40",
+            "serial_id": "00000"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "mass_spectrometer": "jan",
+    "material": "Blank",
+    "measurement": "jan_unknown280_45_no_center.py",
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "NMGRL",
+    "project": "REFERENCES",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Jan_cocktail181",
+    "sample": "blank_cocktail",
+    "source": {
+        "emission": 538.668,
+        "trap": 198.147
+    },
+    "spec_sha": "4e80b3b6b21e30ab54867a5f6966a615efac9656",
+    "timestamp": "2018-11-27T01:40:56.863071",
+    "tripped_conditional": {
+        "context": "{'Ar39': 0.3414976393174505}",
+        "hash_id": 8639675885409403143,
+        "teststr": "Ar39<0.5"
+    },
+    "username": "",
+    "uuid": "0b760719-5505-4ef5-9954-e6c9840c80ee",
+    "whiff_result": null
+}
