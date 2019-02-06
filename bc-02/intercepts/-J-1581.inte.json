@@ -1,6 +1,6 @@
 {
     "Ar36": {
-        "error": 0.00019469977970944995,
+        "error": 0.00019469977970946054,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -12,10 +12,10 @@
         "include_baseline_error": false,
         "n": 280,
         "reviewed": true,
-        "value": 0.002710652408921848
+        "value": 0.0027106524089217797
     },
     "Ar37": {
-        "error": 0.006022427663132336,
+        "error": 0.006022427663132335,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -42,10 +42,10 @@
         "include_baseline_error": false,
         "n": 280,
         "reviewed": true,
-        "value": 0.011636930928244513
+        "value": 0.011636930928244516
     },
     "Ar39": {
-        "error": 0.011828316196709397,
+        "error": 0.011828316196709928,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -57,10 +57,10 @@
         "include_baseline_error": false,
         "n": 280,
         "reviewed": true,
-        "value": 0.12375748579450736
+        "value": 0.12375748579449994
     },
     "Ar40": {
-        "error": 0.010197290568314008,
+        "error": 0.01019729056831294,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -72,17 +72,21 @@
         "include_baseline_error": false,
         "n": 280,
         "reviewed": true,
-        "value": 0.3507904021844314
+        "value": 0.3507904021846036
     },
     "Ar41": {
-        "error": 0.003557856274983258,
+        "error": 0.0016113466702432197,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
             "iterations": 1,
             "std_devs": 2
         },
-        "fit": "linear",
-        "value": -0.014129638276304646
+        "fit": "Average",
+        "fn": 271,
+        "include_baseline_error": false,
+        "n": 280,
+        "reviewed": true,
+        "value": -0.016560016852634706
     }
 }

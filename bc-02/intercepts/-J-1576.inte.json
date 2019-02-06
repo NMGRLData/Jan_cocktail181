@@ -1,6 +1,6 @@
 {
     "Ar36": {
-        "error": 0.00018484580024620705,
+        "error": 0.00018484580024620784,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -12,7 +12,7 @@
         "include_baseline_error": false,
         "n": 280,
         "reviewed": true,
-        "value": 0.002386009837781297
+        "value": 0.002386009837781292
     },
     "Ar37": {
         "error": 0.00570239580712987,
@@ -27,7 +27,7 @@
         "include_baseline_error": false,
         "n": 280,
         "reviewed": true,
-        "value": 0.09869482753815498
+        "value": 0.09869482753815502
     },
     "Ar38": {
         "error": 0.0025405707146841055,
@@ -45,7 +45,7 @@
         "value": 0.02875868362183015
     },
     "Ar39": {
-        "error": 0.012854043894996788,
+        "error": 0.012854043894994885,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -57,10 +57,10 @@
         "include_baseline_error": false,
         "n": 280,
         "reviewed": true,
-        "value": 0.17721501948056095
+        "value": 0.17721501948059154
     },
     "Ar40": {
-        "error": 0.01016829285544084,
+        "error": 0.010168292855442318,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -72,17 +72,21 @@
         "include_baseline_error": false,
         "n": 280,
         "reviewed": true,
-        "value": 0.20705251914095288
+        "value": 0.20705251914062234
     },
     "Ar41": {
-        "error": 0.003792617714093485,
+        "error": 0.0017021568902005862,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
             "iterations": 1,
             "std_devs": 2
         },
-        "fit": "linear",
-        "value": -0.013883538076686311
+        "fit": "Average",
+        "fn": 270,
+        "include_baseline_error": false,
+        "n": 280,
+        "reviewed": true,
+        "value": -0.014697988970362563
     }
 }
