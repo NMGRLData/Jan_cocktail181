@@ -1,9 +1,19 @@
 {
     "Ar36": {
-        "error": 0.00017658394145913495,
+        "error": 0.00032979591247640766,
         "error_type": "",
-        "fit": "Preceding",
+        "fit": "Average_SD",
         "references": [
+            {
+                "exclude": "ok",
+                "record_id": "bc-02-J-1566",
+                "uuid": "9f5e1a08-57a0-4b0d-a2e6-bfd350af8a21"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "bc-02-J-1567",
+                "uuid": "29f82367-0c4f-4715-852a-bbb272a18ab0"
+            },
             {
                 "exclude": "ok",
                 "record_id": "bc-02-J-1568",
@@ -76,13 +86,23 @@
             }
         ],
         "reviewed": true,
-        "value": 0.0022699514516227085
+        "value": 0.0025403016310711094
     },
     "Ar37": {
-        "error": 0.006069976367365147,
+        "error": 0.0019811987131635117,
         "error_type": "",
-        "fit": "Preceding",
+        "fit": "Average_SEM",
         "references": [
+            {
+                "exclude": "ok",
+                "record_id": "bc-02-J-1566",
+                "uuid": "9f5e1a08-57a0-4b0d-a2e6-bfd350af8a21"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "bc-02-J-1567",
+                "uuid": "29f82367-0c4f-4715-852a-bbb272a18ab0"
+            },
             {
                 "exclude": "ok",
                 "record_id": "bc-02-J-1568",
@@ -155,13 +175,23 @@
             }
         ],
         "reviewed": true,
-        "value": 0.02677181270317852
+        "value": 0.02992593711349754
     },
     "Ar38": {
-        "error": 0.0022739610463580607,
+        "error": 0.002052897813495169,
         "error_type": "",
-        "fit": "Preceding",
+        "fit": "Average_SEM",
         "references": [
+            {
+                "exclude": "ok",
+                "record_id": "bc-02-J-1566",
+                "uuid": "9f5e1a08-57a0-4b0d-a2e6-bfd350af8a21"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "bc-02-J-1567",
+                "uuid": "29f82367-0c4f-4715-852a-bbb272a18ab0"
+            },
             {
                 "exclude": "ok",
                 "record_id": "bc-02-J-1568",
@@ -234,13 +264,23 @@
             }
         ],
         "reviewed": true,
-        "value": 0.015947242929043662
+        "value": 0.010371645861008525
     },
     "Ar39": {
-        "error": 0.012160303630497176,
+        "error": 0.003553857527016954,
         "error_type": "",
-        "fit": "Preceding",
+        "fit": "Average_SEM",
         "references": [
+            {
+                "exclude": "ok",
+                "record_id": "bc-02-J-1566",
+                "uuid": "9f5e1a08-57a0-4b0d-a2e6-bfd350af8a21"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "bc-02-J-1567",
+                "uuid": "29f82367-0c4f-4715-852a-bbb272a18ab0"
+            },
             {
                 "exclude": "ok",
                 "record_id": "bc-02-J-1568",
@@ -313,13 +353,23 @@
             }
         ],
         "reviewed": true,
-        "value": 0.03346580580334038
+        "value": 0.011485117740701834
     },
     "Ar40": {
-        "error": 0.009652461432948845,
+        "error": 0.04748648641594101,
         "error_type": "",
-        "fit": "Preceding",
+        "fit": "Average_SD",
         "references": [
+            {
+                "exclude": "ok",
+                "record_id": "bc-02-J-1566",
+                "uuid": "9f5e1a08-57a0-4b0d-a2e6-bfd350af8a21"
+            },
+            {
+                "exclude": "ok",
+                "record_id": "bc-02-J-1567",
+                "uuid": "29f82367-0c4f-4715-852a-bbb272a18ab0"
+            },
             {
                 "exclude": "ok",
                 "record_id": "bc-02-J-1568",
@@ -392,7 +442,7 @@
             }
         ],
         "reviewed": true,
-        "value": 0.2733906415188419
+        "value": 0.26602638958718994
     },
     "Ar41": {
         "error": 0.004801873504039604,
